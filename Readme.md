@@ -24,13 +24,13 @@ Once cloned you will have the copy of the repo on your local computer
 3. Ensure you have python3.7 and above installed on your local computer.
 
 # How to run the code
-To run expenses.py on your terminal press the command
+To run `expenses.py` on your terminal press the command
 ```bash
 python3 expenses.py
 ```
-This would execute the expenses.py and run the test on for the various operations done by the Expenses Class
-Expense representation
-Updating the Expenses
+This would execute the expenses.py and run the test for the various operations done by the Expenses Class
+* Expense representation
+* Updating the Expenses
 
 an example of the code:
 ```python
