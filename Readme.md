@@ -4,8 +4,8 @@ With the use of Python (OOP) to create a project based on individual expenses, w
 
 The project contains the:
 
-expenses.py: this contains the expenses model
-test.py: this contains a unittest for the expenses module
+*`expenses.py`: this contains the expenses model
+*`test.py`: this contains a unittest for the expenses module
 
 # Clone the project
 To copy this project, use this repo link: https://github.com/darknuma/ExpensesDatabase.git 
@@ -16,11 +16,11 @@ and on your terminal navigate to your workind directory with cd [current working
 git clone https://github.com/darknuma/ExpensesDatabase.git 
 ```
 
-Once cloned you would have the copy of the repo on your local computer
+Once cloned you will have the copy of the repo on your local computer
 
 ## Requirements
 1. Installed Git on your local computer
-2. Have a github account
+2. Have a GitHub account
 3. Ensure you have python3.7 and above installed on your local computer.
 
 # How to run the code
@@ -28,11 +28,11 @@ To run expenses.py on your terminal press the command
 ```bash
 python3 expenses.py
 ```
-This would execute the expenses.py and run the test on the for the various operations done by the Expenses Class
+This would execute the expenses.py and run the test on for the various operations done by the Expenses Class
 Expense representation
 Updating the Expenses
 
-an example below of the code:
+an example of the code:
 ```python
 import uuid
 from datetime import datetime, timezone
@@ -48,12 +48,13 @@ class Expense:
         self.updated_at = datetime.now(timezone.utc)  
 ```
 Also on the Expense Database, it would:
-Instatiate the expenses database, 
-Add expenses: add_expenses,
-Remove Expenses: remove_expense
-Get functionalites:  get_expenses_by_id, get_expenses_by_id, and Convert the database to a dictionary: to_dict
+*Instantiate the expenses database
+*Add expenses: `add_expenses`
+*Remove Expenses: `remove_expense`
+*Get functionalities:  `get_expenses_by_id`, `get_expenses_by_id`
+*Convert the database to a dictionary: `to_dict`
 
-To run the test.py on yout terminal to test all the functionalites of the expenses module
+To run the `test.py` on your terminal to test all the functionalities of the expenses module
 ```bash
 python3 test.py
 ```
