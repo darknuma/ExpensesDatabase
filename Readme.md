@@ -51,7 +51,7 @@ Also on the Expense Database, it would:
 * Instantiate the expenses database
 * Add expenses: `add_expenses`
 * Remove Expenses: `remove_expense`
-* Get functionalities:  `get_expenses_by_id`, `get_expenses_by_id`
+* Get functionalities:  `get_expenses_by_id`, `get_expenses_by_title`
 * Convert the database to a dictionary: `to_dict`
 
 To run the `test.py` on your terminal to test all the functionalities of the expenses module
