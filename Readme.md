@@ -4,8 +4,8 @@ With the use of Python (OOP) to create a project based on individual expenses, w
 
 The project contains the:
 
-*`expenses.py`: this contains the expenses model
-*`test.py`: this contains a unittest for the expenses module
+* `expenses.py`: this contains the expenses model
+* `test.py`: this contains a unittest for the expenses module
 
 # Clone the project
 To copy this project, use this repo link: https://github.com/darknuma/ExpensesDatabase.git 
@@ -48,11 +48,11 @@ class Expense:
         self.updated_at = datetime.now(timezone.utc)  
 ```
 Also on the Expense Database, it would:
-*Instantiate the expenses database
-*Add expenses: `add_expenses`
-*Remove Expenses: `remove_expense`
-*Get functionalities:  `get_expenses_by_id`, `get_expenses_by_id`
-*Convert the database to a dictionary: `to_dict`
+* Instantiate the expenses database
+* Add expenses: `add_expenses`
+* Remove Expenses: `remove_expense`
+* Get functionalities:  `get_expenses_by_id`, `get_expenses_by_id`
+* Convert the database to a dictionary: `to_dict`
 
 To run the `test.py` on your terminal to test all the functionalities of the expenses module
 ```bash
